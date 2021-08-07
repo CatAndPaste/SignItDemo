@@ -1,0 +1,10 @@
+name: SignItDemo
+main: ru.alskar.signitdemo.SignItDemo
+version: ${project.version}
+description: Demo command for SignIt plugin
+api-version: "1.14"
+
+commands:
+  signdemo:
+    description: "Gives player a few items to test signing and copying mechanisms"
+    usage: /<command>
